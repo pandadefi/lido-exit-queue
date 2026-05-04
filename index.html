@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lido Withdrawal Predictions</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="page-header">
+        <div>
+          <div class="eyebrow"><span></span> Beacon Watch</div>
+          <h1>Lido Withdrawal Predictions</h1>
+          <p>Public snapshot of expected Lido validator withdrawals on Ethereum mainnet.</p>
+        </div>
+        <div class="status-panel" aria-live="polite">
+          <div class="status-label">Last updated</div>
+          <div id="generatedAt" class="status-value">Loading...</div>
+          <div id="refreshInterval" class="status-note"></div>
+        </div>
+      </header>
+
+      <section class="summary-grid" aria-label="Current withdrawal state">
+        <div class="metric">
+          <span>Current Epoch</span>
+          <strong id="currentEpoch">-</strong>
+        </div>
+        <div class="metric">
+          <span>Withdrawal Position</span>
+          <strong id="currentWithdrawalPosition">-</strong>
+        </div>
+        <div class="metric">
+          <span>Network</span>
+          <strong id="network">-</strong>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-heading">
+          <h2>Prediction Periods</h2>
+          <p>16 withdrawals per 12-second block. Exits require withdrawable epoch.</p>
+        </div>
+        <div id="predictionCards" class="prediction-grid"></div>
+      </section>
+
+      <section class="details-section">
+        <div class="section-heading">
+          <h2>Exiting Validators</h2>
+          <p id="selectedPeriodLabel">Select a period to inspect validators.</p>
+        </div>
+
+        <div class="toolbar">
+          <div id="periodTabs" class="tabs" role="tablist" aria-label="Prediction periods"></div>
+          <div class="filters" aria-label="Validator status filter">
+            <button class="filter-button active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="exited">Exited</button>
+            <button class="filter-button" type="button" data-filter="exiting_online">EXITING ONLINE</button>
+          </div>
+        </div>
+
+        <div id="validatorCount" class="count-line"></div>
+        <div id="validatorList" class="validator-list"></div>
+      </section>
+
+      <div id="errorMessage" class="error-message" hidden></div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,385 @@
+:root {
+  --bg: #f5f7f2;
+  --surface: #ffffff;
+  --surface-muted: #f8faf7;
+  --border: #dbe4d4;
+  --ink: #17231d;
+  --muted: #65736b;
+  --emerald: #047857;
+  --emerald-soft: #dff4ea;
+  --amber: #b45309;
+  --amber-soft: #fff0cf;
+  --blue: #0369a1;
+  --blue-soft: #e0f2fe;
+  --rose: #be123c;
+  --shadow: 0 10px 24px rgba(23, 35, 29, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body::before {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  content: "";
+  background-image:
+    linear-gradient(rgba(4, 120, 87, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(4, 120, 87, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.shell {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 40px 0 56px;
+}
+
+.page-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: end;
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--emerald);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+}
+
+.eyebrow span {
+  width: 40px;
+  height: 4px;
+  border-radius: 999px;
+  background: #34d399;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 12px;
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.08;
+  font-weight: 720;
+  letter-spacing: 0;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.page-header p,
+.section-heading p {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.status-panel,
+.metric,
+.prediction-card,
+.details-section,
+.validator-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: var(--shadow);
+}
+
+.status-panel {
+  min-width: 230px;
+  padding: 16px;
+}
+
+.status-label,
+.status-note,
+.metric span,
+.card-label,
+.validator-meta,
+.field-label,
+.count-line {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.status-value {
+  margin-top: 4px;
+  font-weight: 700;
+}
+
+.status-note {
+  margin-top: 4px;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+.metric {
+  padding: 16px;
+}
+
+.metric strong {
+  display: block;
+  margin-top: 6px;
+  font-size: 22px;
+}
+
+.section-heading {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 0 0 14px;
+}
+
+.prediction-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(150px, 1fr));
+  gap: 12px;
+}
+
+.prediction-card {
+  padding: 14px;
+}
+
+.prediction-date {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.prediction-total {
+  color: var(--emerald);
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.card-rows {
+  display: grid;
+  gap: 7px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 12px;
+}
+
+.card-row strong {
+  text-align: right;
+}
+
+.exit-text {
+  color: var(--amber);
+}
+
+.reward-text {
+  color: var(--blue);
+}
+
+.details-section {
+  margin-top: 28px;
+  padding: 18px;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.tabs,
+.filters {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-muted);
+}
+
+.tab-button,
+.filter-button {
+  min-height: 32px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 7px 10px;
+}
+
+.tab-button:hover,
+.filter-button:hover {
+  color: var(--ink);
+}
+
+.tab-button.active,
+.filter-button.active {
+  background: var(--surface);
+  color: var(--emerald);
+  box-shadow: 0 1px 3px rgba(23, 35, 29, 0.1);
+}
+
+.validator-list {
+  display: grid;
+  gap: 10px;
+  max-height: 520px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.validator-card {
+  box-shadow: none;
+  padding: 14px;
+}
+
+.validator-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.validator-link {
+  color: var(--emerald);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.validator-link:hover {
+  text-decoration: underline;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 3px 9px;
+}
+
+.badge.exited {
+  background: #e5e7eb;
+  color: #374151;
+}
+
+.badge.exiting_online {
+  background: var(--amber-soft);
+  color: var(--amber);
+}
+
+.validator-fields {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.field-value {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.available {
+  color: var(--emerald);
+}
+
+.unavailable {
+  color: var(--amber);
+}
+
+.empty-state,
+.error-message {
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  color: var(--muted);
+  padding: 24px;
+  text-align: center;
+}
+
+.error-message {
+  margin-top: 20px;
+  border-color: rgba(190, 18, 60, 0.4);
+  color: var(--rose);
+  background: #fff1f2;
+}
+
+@media (max-width: 980px) {
+  .page-header,
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .prediction-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .validator-fields {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 620px) {
+  .shell {
+    width: min(100% - 20px, 1180px);
+    padding-top: 24px;
+  }
+
+  .prediction-grid,
+  .validator-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .status-panel,
+  .toolbar,
+  .tabs,
+  .filters {
+    width: 100%;
+  }
+}
