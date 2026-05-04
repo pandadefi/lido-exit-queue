@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Lido Withdrawal Predictions</title>
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -15,47 +17,57 @@
           <p>Public snapshot of expected Lido validator withdrawals on Ethereum mainnet.</p>
         </div>
         <div class="status-panel" aria-live="polite">
-          <div class="status-label">Last updated</div>
+          <div class="status-top">
+            <span class="status-dot"></span>
+            <span class="status-label">Last updated</span>
+          </div>
           <div id="generatedAt" class="status-value">Loading...</div>
-          <div id="refreshInterval" class="status-note"></div>
+          <div id="refreshInterval" class="status-note">Fetching latest snapshot</div>
         </div>
       </header>
 
-      <section class="summary-grid" aria-label="Current withdrawal state">
+      <section class="summary-grid" aria-label="Lido withdrawal queue state">
         <div class="metric">
-          <span>Current Epoch</span>
-          <strong id="currentEpoch">-</strong>
+          <span>Lido Queue Size</span>
+          <strong id="lidoWithdrawalQueueEth">-</strong>
         </div>
         <div class="metric">
-          <span>Withdrawal Position</span>
-          <strong id="currentWithdrawalPosition">-</strong>
-        </div>
-        <div class="metric">
-          <span>Network</span>
-          <strong id="network">-</strong>
+          <span>Buffer Ready</span>
+          <strong id="lidoBufferEth">-</strong>
         </div>
       </section>
 
       <section>
         <div class="section-heading">
-          <h2>Prediction Periods</h2>
-          <p>16 withdrawals per 12-second block. Exits require withdrawable epoch.</p>
+          <h2>Cumulative Daily Predictions</h2>
+          <p>Each day includes all previous days plus that day's expected withdrawals.</p>
         </div>
         <div id="predictionCards" class="prediction-grid"></div>
       </section>
 
       <section class="details-section">
         <div class="section-heading">
-          <h2>Exiting Validators</h2>
+          <h2>Withdrawal Validators</h2>
           <p id="selectedPeriodLabel">Select a period to inspect validators.</p>
         </div>
 
         <div class="toolbar">
           <div id="periodTabs" class="tabs" role="tablist" aria-label="Prediction periods"></div>
           <div class="filters" aria-label="Validator status filter">
-            <button class="filter-button active" type="button" data-filter="all">All</button>
-            <button class="filter-button" type="button" data-filter="exited">Exited</button>
-            <button class="filter-button" type="button" data-filter="exiting_online">EXITING ONLINE</button>
+            <button class="filter-button active" type="button" data-filter="all" data-label="All">
+              All
+            </button>
+            <button class="filter-button" type="button" data-filter="exited" data-label="Exited">
+              Exited
+            </button>
+            <button
+              class="filter-button"
+              type="button"
+              data-filter="exiting_online"
+              data-label="EXITING ONLINE"
+            >
+              EXITING ONLINE
+            </button>
           </div>
         </div>
 
