@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T22:37:08.671639Z",
+  "generated_at": "2026-05-30T22:37:09.841632Z",
   "lido_buffer_eth": "4960.411315017381845128",
   "lido_withdrawal_queue_eth": "4568.515307494424181695",
   "predictions": [
@@ -17,95 +17,117 @@
       "validators": 0
     },
     {
-      "exit_validators": 25,
-      "exited_validators": 25,
+      "exit_validators": 0,
+      "exited_validators": 0,
       "exiting_validators": [],
-      "exits_eth": "800",
-      "full_withdrawal_validators": 25,
+      "exits_eth": "0",
+      "full_withdrawal_validators": 0,
       "label": "06-01",
       "queued_exit_validators": 0,
-      "rewards_eth": "1399.257660311",
+      "rewards_eth": "0",
       "target_datetime": "2026-06-01T12:22:23Z",
-      "total_eth": "2199.257660311",
-      "validators": 85949
+      "total_eth": "0",
+      "validators": 0
     },
     {
-      "exit_validators": 25,
-      "exited_validators": 25,
+      "exit_validators": 0,
+      "exited_validators": 0,
       "exiting_validators": [],
-      "exits_eth": "800",
-      "full_withdrawal_validators": 25,
+      "exits_eth": "0",
+      "full_withdrawal_validators": 0,
       "label": "06-02",
       "queued_exit_validators": 0,
-      "rewards_eth": "1727.527651538",
+      "rewards_eth": "0",
       "target_datetime": "2026-06-02T12:22:23Z",
-      "total_eth": "2527.527651538",
-      "validators": 111149
+      "total_eth": "0",
+      "validators": 0
     },
     {
-      "exit_validators": 25,
-      "exited_validators": 25,
+      "exit_validators": 0,
+      "exited_validators": 0,
       "exiting_validators": [],
-      "exits_eth": "800",
-      "full_withdrawal_validators": 25,
+      "exits_eth": "0",
+      "full_withdrawal_validators": 0,
       "label": "06-03",
       "queued_exit_validators": 0,
-      "rewards_eth": "1794.892032952",
+      "rewards_eth": "0",
       "target_datetime": "2026-06-03T12:22:23Z",
-      "total_eth": "2594.892032952",
-      "validators": 117420
+      "total_eth": "0",
+      "validators": 0
     },
     {
-      "exit_validators": 25,
-      "exited_validators": 25,
+      "exit_validators": 0,
+      "exited_validators": 0,
       "exiting_validators": [],
-      "exits_eth": "800",
-      "full_withdrawal_validators": 25,
+      "exits_eth": "0",
+      "full_withdrawal_validators": 0,
       "label": "06-04",
       "queued_exit_validators": 0,
-      "rewards_eth": "1857.134930942",
+      "rewards_eth": "0",
       "target_datetime": "2026-06-04T12:22:23Z",
-      "total_eth": "2657.134930942",
-      "validators": 124487
+      "total_eth": "0",
+      "validators": 0
     },
     {
-      "exit_validators": 1077,
-      "exited_validators": 25,
+      "exit_validators": 0,
+      "exited_validators": 0,
       "exiting_validators": [],
-      "exits_eth": "34469.830391617",
-      "full_withdrawal_validators": 1077,
+      "exits_eth": "0",
+      "full_withdrawal_validators": 0,
       "label": "06-05",
-      "queued_exit_validators": 1052,
-      "rewards_eth": "2054.597558777",
+      "queued_exit_validators": 0,
+      "rewards_eth": "0",
       "target_datetime": "2026-06-05T12:22:23Z",
-      "total_eth": "36524.427950394",
-      "validators": 160491
+      "total_eth": "0",
+      "validators": 0
     },
     {
-      "exit_validators": 1078,
-      "exited_validators": 25,
-      "exiting_validators": [],
-      "exits_eth": "34501.833593043",
-      "full_withdrawal_validators": 1078,
+      "exit_validators": 1,
+      "exited_validators": 0,
+      "exiting_validators": [
+        {
+          "balance_eth": "32.003210114",
+          "balance_gwei": "32003210114",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exiting_online",
+          "validator_index": 2281080,
+          "withdrawable_epoch": 451786
+        }
+      ],
+      "exits_eth": "32.003210114",
+      "full_withdrawal_validators": 1,
       "label": "06-06",
-      "queued_exit_validators": 1053,
-      "rewards_eth": "2194.151170077",
+      "queued_exit_validators": 1,
+      "rewards_eth": "95.374253294",
       "target_datetime": "2026-06-06T12:22:23Z",
-      "total_eth": "36695.984763120",
-      "validators": 201980
+      "total_eth": "127.377463408",
+      "validators": 31862
     },
     {
-      "exit_validators": 1078,
-      "exited_validators": 25,
-      "exiting_validators": [],
-      "exits_eth": "34501.833593043",
-      "full_withdrawal_validators": 1078,
+      "exit_validators": 1,
+      "exited_validators": 0,
+      "exiting_validators": [
+        {
+          "balance_eth": "32.003210114",
+          "balance_gwei": "32003210114",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exiting_online",
+          "validator_index": 2281080,
+          "withdrawable_epoch": 451786
+        }
+      ],
+      "exits_eth": "32.003210114",
+      "full_withdrawal_validators": 1,
       "label": "06-07",
-      "queued_exit_validators": 1053,
-      "rewards_eth": "2276.506853659",
+      "queued_exit_validators": 1,
+      "rewards_eth": "196.744946383",
       "target_datetime": "2026-06-07T12:22:23Z",
-      "total_eth": "36778.340446702",
-      "validators": 266521
+      "total_eth": "228.748156497",
+      "validators": 100401
     }
   ],
   "refresh_interval_seconds": 600
