@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T16:13:55.413925Z",
+  "generated_at": "2026-05-31T16:13:56.494510Z",
   "lido_buffer_eth": "1006.079138948803841568",
   "lido_withdrawal_queue_eth": "662.852714431663738397",
   "predictions": [
@@ -97,7 +97,18 @@
     {
       "exit_validators": 1067,
       "exited_validators": 39,
-      "exiting_validators": [],
+      "exiting_validators": [
+        {
+          "balance_eth": "32.003920505",
+          "balance_gwei": "32003920505",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 2281080,
+          "withdrawable_epoch": 451786
+        }
+      ],
       "exits_eth": "34151.407799277",
       "full_withdrawal_validators": 1067,
       "label": "06-08",
