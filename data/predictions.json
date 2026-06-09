@@ -1,72 +1,72 @@
 {
-  "generated_at": "2026-06-09T17:42:33.154110Z",
+  "generated_at": "2026-06-09T17:42:34.376520Z",
   "lido_buffer_eth": "4583.854230065529901137",
   "lido_withdrawal_queue_eth": "6043.606168929049803298",
   "predictions": [
     {
-      "exit_validators": 15,
-      "exited_validators": 15,
+      "exit_validators": 0,
+      "exited_validators": 0,
       "exiting_validators": [],
-      "exits_eth": "480.206442706",
-      "full_withdrawal_validators": 15,
+      "exits_eth": "0",
+      "full_withdrawal_validators": 0,
       "label": "06-10",
       "queued_exit_validators": 0,
-      "rewards_eth": "168.143222256",
+      "rewards_eth": "0",
       "target_datetime": "2026-06-10T12:22:11Z",
-      "total_eth": "648.349664962",
-      "validators": 9842
+      "total_eth": "0",
+      "validators": 0
     },
     {
-      "exit_validators": 21,
-      "exited_validators": 21,
+      "exit_validators": 0,
+      "exited_validators": 0,
       "exiting_validators": [],
-      "exits_eth": "672.244196033",
-      "full_withdrawal_validators": 21,
+      "exits_eth": "0",
+      "full_withdrawal_validators": 0,
       "label": "06-11",
       "queued_exit_validators": 0,
-      "rewards_eth": "324.628955213",
+      "rewards_eth": "0",
       "target_datetime": "2026-06-11T12:22:11Z",
-      "total_eth": "996.873151246",
-      "validators": 20644
+      "total_eth": "0",
+      "validators": 0
     },
     {
-      "exit_validators": 106,
-      "exited_validators": 106,
+      "exit_validators": 0,
+      "exited_validators": 0,
       "exiting_validators": [],
-      "exits_eth": "3392.947462208",
-      "full_withdrawal_validators": 106,
+      "exits_eth": "0",
+      "full_withdrawal_validators": 0,
       "label": "06-12",
       "queued_exit_validators": 0,
-      "rewards_eth": "441.281917828",
+      "rewards_eth": "0",
       "target_datetime": "2026-06-12T12:22:11Z",
-      "total_eth": "3834.229380036",
-      "validators": 30599
+      "total_eth": "0",
+      "validators": 0
     },
     {
-      "exit_validators": 106,
-      "exited_validators": 106,
+      "exit_validators": 0,
+      "exited_validators": 0,
       "exiting_validators": [],
-      "exits_eth": "3392.947462208",
-      "full_withdrawal_validators": 106,
+      "exits_eth": "0",
+      "full_withdrawal_validators": 0,
       "label": "06-13",
       "queued_exit_validators": 0,
-      "rewards_eth": "833.874437634",
+      "rewards_eth": "0",
       "target_datetime": "2026-06-13T12:22:11Z",
-      "total_eth": "4226.821899842",
-      "validators": 70679
+      "total_eth": "0",
+      "validators": 0
     },
     {
-      "exit_validators": 219,
-      "exited_validators": 219,
+      "exit_validators": 0,
+      "exited_validators": 0,
       "exiting_validators": [],
-      "exits_eth": "7009.063318014",
-      "full_withdrawal_validators": 219,
+      "exits_eth": "0",
+      "full_withdrawal_validators": 0,
       "label": "06-14",
       "queued_exit_validators": 0,
-      "rewards_eth": "1182.138464819",
+      "rewards_eth": "0",
       "target_datetime": "2026-06-14T12:22:11Z",
-      "total_eth": "8191.201782833",
-      "validators": 117099
+      "total_eth": "0",
+      "validators": 0
     },
     {
       "exit_validators": 272,
@@ -84,7 +84,88 @@
     {
       "exit_validators": 280,
       "exited_validators": 280,
-      "exiting_validators": [],
+      "exiting_validators": [
+        {
+          "balance_eth": "32",
+          "balance_gwei": "32000000000",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 977038,
+          "withdrawable_epoch": 453390
+        },
+        {
+          "balance_eth": "32",
+          "balance_gwei": "32000000000",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 977039,
+          "withdrawable_epoch": 453390
+        },
+        {
+          "balance_eth": "32",
+          "balance_gwei": "32000000000",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 1039585,
+          "withdrawable_epoch": 453394
+        },
+        {
+          "balance_eth": "32",
+          "balance_gwei": "32000000000",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 1039586,
+          "withdrawable_epoch": 453394
+        },
+        {
+          "balance_eth": "32",
+          "balance_gwei": "32000000000",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 1055206,
+          "withdrawable_epoch": 453369
+        },
+        {
+          "balance_eth": "32",
+          "balance_gwei": "32000000000",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 1055207,
+          "withdrawable_epoch": 453369
+        },
+        {
+          "balance_eth": "32",
+          "balance_gwei": "32000000000",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 1055796,
+          "withdrawable_epoch": 453393
+        },
+        {
+          "balance_eth": "32",
+          "balance_gwei": "32000000000",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 1055797,
+          "withdrawable_epoch": 453393
+        }
+      ],
       "exits_eth": "8961.078132953",
       "full_withdrawal_validators": 280,
       "label": "06-16",
@@ -97,7 +178,88 @@
     {
       "exit_validators": 280,
       "exited_validators": 280,
-      "exiting_validators": [],
+      "exiting_validators": [
+        {
+          "balance_eth": "32",
+          "balance_gwei": "32000000000",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 977038,
+          "withdrawable_epoch": 453390
+        },
+        {
+          "balance_eth": "32",
+          "balance_gwei": "32000000000",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 977039,
+          "withdrawable_epoch": 453390
+        },
+        {
+          "balance_eth": "32",
+          "balance_gwei": "32000000000",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 1039585,
+          "withdrawable_epoch": 453394
+        },
+        {
+          "balance_eth": "32",
+          "balance_gwei": "32000000000",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 1039586,
+          "withdrawable_epoch": 453394
+        },
+        {
+          "balance_eth": "32",
+          "balance_gwei": "32000000000",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 1055206,
+          "withdrawable_epoch": 453369
+        },
+        {
+          "balance_eth": "32",
+          "balance_gwei": "32000000000",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 1055207,
+          "withdrawable_epoch": 453369
+        },
+        {
+          "balance_eth": "32",
+          "balance_gwei": "32000000000",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 1055796,
+          "withdrawable_epoch": 453393
+        },
+        {
+          "balance_eth": "32",
+          "balance_gwei": "32000000000",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 1055797,
+          "withdrawable_epoch": 453393
+        }
+      ],
       "exits_eth": "8961.078132953",
       "full_withdrawal_validators": 280,
       "label": "06-17",
