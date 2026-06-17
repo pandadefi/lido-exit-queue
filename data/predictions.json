@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T12:11:02.683479Z",
+  "generated_at": "2026-06-17T12:11:05.409233Z",
   "lido_buffer_eth": "8902.962774870841365027",
   "lido_withdrawal_queue_eth": "11809.140772817653695307",
   "predictions": [
@@ -71,7 +71,18 @@
     {
       "exit_validators": 0,
       "exited_validators": 0,
-      "exiting_validators": [],
+      "exiting_validators": [
+        {
+          "balance_eth": "32.003097752",
+          "balance_gwei": "32003097752",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 535553,
+          "withdrawable_epoch": 455352
+        }
+      ],
       "exits_eth": "0",
       "full_withdrawal_validators": 0,
       "label": "06-22",
@@ -84,7 +95,18 @@
     {
       "exit_validators": 0,
       "exited_validators": 0,
-      "exiting_validators": [],
+      "exiting_validators": [
+        {
+          "balance_eth": "32.003097752",
+          "balance_gwei": "32003097752",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 535553,
+          "withdrawable_epoch": 455352
+        }
+      ],
       "exits_eth": "0",
       "full_withdrawal_validators": 0,
       "label": "06-23",
@@ -98,6 +120,16 @@
       "exit_validators": 5,
       "exited_validators": 5,
       "exiting_validators": [
+        {
+          "balance_eth": "32.003097752",
+          "balance_gwei": "32003097752",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 535553,
+          "withdrawable_epoch": 455352
+        },
         {
           "balance_eth": "32",
           "balance_gwei": "32000000000",
