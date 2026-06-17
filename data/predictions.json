@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-17T22:56:27.428738Z",
-  "lido_buffer_eth": "7644.416737998815322763",
+  "generated_at": "2026-06-17T22:56:29.204526Z",
+  "lido_buffer_eth": "7644.42464733798024252",
   "lido_withdrawal_queue_eth": "9923.349682619019623053",
   "predictions": [
     {
@@ -71,7 +71,18 @@
     {
       "exit_validators": 95,
       "exited_validators": 95,
-      "exiting_validators": [],
+      "exiting_validators": [
+        {
+          "balance_eth": "32.003097752",
+          "balance_gwei": "32003097752",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 535553,
+          "withdrawable_epoch": 455352
+        }
+      ],
       "exits_eth": "3040.73615377",
       "full_withdrawal_validators": 95,
       "label": "06-23",
@@ -85,6 +96,16 @@
       "exit_validators": 100,
       "exited_validators": 100,
       "exiting_validators": [
+        {
+          "balance_eth": "32.003097752",
+          "balance_gwei": "32003097752",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 535553,
+          "withdrawable_epoch": 455352
+        },
         {
           "balance_eth": "32",
           "balance_gwei": "32000000000",
@@ -149,6 +170,16 @@
       "exit_validators": 165,
       "exited_validators": 165,
       "exiting_validators": [
+        {
+          "balance_eth": "32.003097752",
+          "balance_gwei": "32003097752",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 535553,
+          "withdrawable_epoch": 455352
+        },
         {
           "balance_eth": "32",
           "balance_gwei": "32000000000",
