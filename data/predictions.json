@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T05:58:35.578245Z",
+  "generated_at": "2026-06-18T05:58:37.213769Z",
   "lido_buffer_eth": "11366.356429199686114166",
   "lido_withdrawal_queue_eth": "12045.277234531578429385",
   "predictions": [
@@ -71,7 +71,18 @@
     {
       "exit_validators": 95,
       "exited_validators": 95,
-      "exiting_validators": [],
+      "exiting_validators": [
+        {
+          "balance_eth": "32.003097752",
+          "balance_gwei": "32003097752",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 535553,
+          "withdrawable_epoch": 455352
+        }
+      ],
       "exits_eth": "3040.73615377",
       "full_withdrawal_validators": 95,
       "label": "06-23",
@@ -84,7 +95,18 @@
     {
       "exit_validators": 95,
       "exited_validators": 95,
-      "exiting_validators": [],
+      "exiting_validators": [
+        {
+          "balance_eth": "32.003097752",
+          "balance_gwei": "32003097752",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 535553,
+          "withdrawable_epoch": 455352
+        }
+      ],
       "exits_eth": "3040.73615377",
       "full_withdrawal_validators": 95,
       "label": "06-24",
@@ -98,6 +120,16 @@
       "exit_validators": 165,
       "exited_validators": 165,
       "exiting_validators": [
+        {
+          "balance_eth": "32.003097752",
+          "balance_gwei": "32003097752",
+          "effective_balance_eth": "32",
+          "effective_balance_gwei": "32000000000",
+          "full_balance_available_at_period_end": true,
+          "status": "exited",
+          "validator_index": 535553,
+          "withdrawable_epoch": 455352
+        },
         {
           "balance_eth": "32",
           "balance_gwei": "32000000000",
