@@ -1,22 +1,12 @@
 {
-  "generated_at": "2026-06-21T23:58:31.074563Z",
+  "generated_at": "2026-06-21T23:58:44.122341Z",
   "lido_buffer_eth": "5272.034178441412399443",
   "lido_withdrawal_queue_eth": "4289.014876697165643332",
   "predictions": [
     {
-      "exit_validators": 2,
-      "exited_validators": 2,
+      "exit_validators": 0,
+      "exited_validators": 0,
       "exiting_validators": [
-        {
-          "balance_eth": "32.003160084",
-          "balance_gwei": "32003160084",
-          "effective_balance_eth": "32",
-          "effective_balance_gwei": "32000000000",
-          "full_balance_available_at_period_end": true,
-          "status": "exited",
-          "validator_index": 521172,
-          "withdrawable_epoch": 455352
-        },
         {
           "balance_eth": "32.003097752",
           "balance_gwei": "32003097752",
@@ -28,18 +18,18 @@
           "withdrawable_epoch": 455352
         }
       ],
-      "exits_eth": "64.006257836",
-      "full_withdrawal_validators": 2,
+      "exits_eth": "0",
+      "full_withdrawal_validators": 0,
       "label": "06-22",
       "queued_exit_validators": 0,
-      "rewards_eth": "492.5359487",
+      "rewards_eth": "444.941750906",
       "target_datetime": "2026-06-22T12:21:11Z",
-      "total_eth": "556.542206536",
-      "validators": 29722
+      "total_eth": "444.941750906",
+      "validators": 26928
     },
     {
-      "exit_validators": 2,
-      "exited_validators": 2,
+      "exit_validators": 1,
+      "exited_validators": 1,
       "exiting_validators": [
         {
           "balance_eth": "32.003160084",
@@ -62,14 +52,14 @@
           "withdrawable_epoch": 455352
         }
       ],
-      "exits_eth": "64.006257836",
-      "full_withdrawal_validators": 2,
+      "exits_eth": "32.003097752",
+      "full_withdrawal_validators": 1,
       "label": "06-23",
       "queued_exit_validators": 0,
-      "rewards_eth": "1587.727994149",
+      "rewards_eth": "1556.822552437",
       "target_datetime": "2026-06-23T12:21:11Z",
-      "total_eth": "1651.734251985",
-      "validators": 102866
+      "total_eth": "1588.825650189",
+      "validators": 101072
     },
     {
       "exit_validators": 7,
